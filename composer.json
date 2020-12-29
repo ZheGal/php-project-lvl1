@@ -1,0 +1,8 @@
+{
+    "name": "zhegal/brain-games-php",
+	"description": "First test project for Hexlet",
+	"license": "proprietary",
+	"bin": [
+	  "bin/brain-games"
+	]
+}
