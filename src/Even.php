@@ -7,10 +7,10 @@ class Even
     private int $number;
     private string $right_answer;
     private string $user_answer;
-    
+
     public function __construct()
     {
-        $this->number = rand(1,99);
+        $this->number = rand(1, 99);
         $this->right_answer = (($this->number % 2) == 0) ? 'yes' : 'no';
     }
 
