@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+require_once("bin/brain-games");
+
+use function cli\line;
+use function cli\prompt;
+use Brain\Games\Cli;
+use Brain\Games\Even;
+
+line("Answer \"yes\" if the number is even, otherwise answer \"no\".");
+
+for ($i = 1; $i <= 3; $i++) {
+    $even = new Brain\Games\Even();
+    $number = $even->getNumber();
+    $answer = prompt("Question: {$number}");
+    $even->setUserAnswer($answer);
+    line("Your answer: {$answer}");
+    if (!$even->isUserCorrect()) {
+        line("'{$answer}' is wrong answer ;(. Correct answer was '{$even->getRightAnswer()}'.");
+        die("Let's try again, {$name}!");
+    }
+    line("Correct!");
+
+}
+
+line("Congratulations, {$name}");
