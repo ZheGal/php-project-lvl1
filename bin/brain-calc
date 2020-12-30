@@ -2,9 +2,9 @@
 <?php
 require_once("vendor/autoload.php");
 
-use Brain\Games\Games\Even;
+use Brain\Games\Games\Calc;
 
-$game = new Even();
+$game = new Calc();
 $game->startGame();
 $game->printQuestions();
 $game->success();

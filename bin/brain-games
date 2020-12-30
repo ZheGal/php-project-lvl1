@@ -2,13 +2,6 @@
 <?php
 require_once("vendor/autoload.php");
 
-use function cli\line;
-use function cli\prompt;
-use Brain\Games\Cli;
-	
-line('Welcome to the Brain Games!');
-$name = prompt('May I have your name?');
+use Brain\Games\Engine;
 
-$user = new Brain\Games\Cli($name);
-
-line("Hello, %s!", $name);
+$game = new Engine();
