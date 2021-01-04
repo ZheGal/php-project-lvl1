@@ -19,7 +19,8 @@ class Gcd extends \Brain\Games\Engine
         return $this->question;
     }
 
-    private function gcd ($a, $b) {
+    private function gcd($a, $b)
+    {
         return $b ? $this->gcd($b, $a % $b) : $a;
     }
 }
