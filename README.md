@@ -13,3 +13,9 @@ Command:
   `` make brain-calc ``
 
 Demo: https://asciinema.org/a/rKb80BZWw92eFSzzb6RXuCiOa
+
+## brain-gdc
+Command:
+  `` make brain-gdc ``
+  
+Demo: https://asciinema.org/a/XaXzAZZEuhy6vo4nzuaIDKP5A
