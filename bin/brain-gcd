@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+require_once("vendor/autoload.php");
+
+use Brain\Games\Games\Gcd;
+
+$game = new Gcd();
+$game->startGame();
+$game->printQuestions();
+$game->success();
