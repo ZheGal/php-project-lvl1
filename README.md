@@ -19,3 +19,9 @@ Command:
   `` make brain-gdc ``
   
 Demo: https://asciinema.org/a/XaXzAZZEuhy6vo4nzuaIDKP5A
+
+## brain-progression
+Command:
+  `` make brain-progression ``
+
+Demo: https://asciinema.org/a/tF0C97TYaYaPgDoON4SZSEqCL

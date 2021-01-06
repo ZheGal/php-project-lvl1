@@ -26,7 +26,7 @@ class Progression extends \Brain\Games\Engine
         $array = [];
         $start = rand(0, 20);
         $step = rand(2, 9);
-        
+
         for ($i = 0; $i < 10; $i++) {
             $array[] = $start;
             $start += $step;
