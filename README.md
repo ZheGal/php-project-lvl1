@@ -25,3 +25,9 @@ Command:
   `` make brain-progression ``
 
 Demo: https://asciinema.org/a/tF0C97TYaYaPgDoON4SZSEqCL
+
+## brain-prime
+Command:
+  `` make brain-prime ``
+
+Demo: https://asciinema.org/a/GQG4KDQgTLDDwymTfq0UJZXUj
